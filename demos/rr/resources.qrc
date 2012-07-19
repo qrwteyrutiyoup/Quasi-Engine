@@ -1,0 +1,7 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>GameWindow.qml</file>
+    <file>images/f35.png</file>
+    <file>images/bg.jpg</file>
+</qresource>
+</RCC>

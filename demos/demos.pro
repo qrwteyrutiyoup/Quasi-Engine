@@ -2,4 +2,5 @@ TEMPLATE = subdirs
 
 SUBDIRS += \
     paratrooper \
-    basketball
+    basketball \
+    rr
