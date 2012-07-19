@@ -67,6 +67,7 @@ int main(int argc, char *argv[])
     view.setViewport(new QGLWidget);
 #endif
 
+    QObject::connect((QObject*)view.engine(), SIGNAL(quit()), &app, SLOT(quit()));
     view.show();
 
     return app.exec();
